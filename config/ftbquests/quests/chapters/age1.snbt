@@ -1,0 +1,572 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age1"
+	group: "3DBB8FB4D3734C98"
+	icon: "homespun:ironwood_sapling"
+	id: "7D39CB23FCD89718"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["First of all, this island, small though it may be, holds some key materials to begin to reestablish things.Take these trees for example though you can fell them with your bare hands, their wood is innately powerful- such that even the crudest of wands carved from it may be of great use."]
+			id: "06540931B1905313"
+			rewards: [{
+				count: 50
+				id: "19CAF0454B306ADF"
+				item: "homespun:ironwood_log"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "20562EA476FF4093"
+				item: "kubejs:ironwood_wand_one"
+				type: "item"
+			}]
+			title: "An End and a Beginning"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06540931B1905313"]
+			description: [
+				"The trees aren't the only materials I was able to preserve with this island. Look around - water, rock and earth are part of all this too. That wand - it's attuned to the subtleties of this place, and can coax the earth and rocks here to aid you."
+				""
+				"Using it on the stone will reward you with Clay, while the earth will indulge you with shards of life lost, and seeds to spread beyond this place."
+			]
+			id: "62AF9C36F8970A40"
+			rewards: [
+				{
+					id: "1A38BD4CF6026A29"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4BDDDBB8F0AA3EA9"
+					item: "botania:infused_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CAF5EB682EDF0A3"
+				item: "botania:infused_seeds"
+				type: "item"
+			}]
+			title: "No Such Thing as Sifting"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["62AF9C36F8970A40"]
+			description: ["Raw clay can only do so much, but if you combine it with some of the stone that forms the island's foundation, you should have a Furnace vessel that can handle enough heat to actually cook things, including the clay itself."]
+			id: "5DB4740CC8B08D20"
+			rewards: [
+				{
+					count: 2
+					id: "6768EC7E86447F97"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0648D1B42DD5F429"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "691C0765C7878964"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Heating Up"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06540931B1905313"]
+			description: ["With a keen eye, you may have noticed that these trees grow small, hard berries that feel almost metallic to the touch. While they normally grow slowly, the wand you hold should be capable of encouraging the growth of these berries - simply use it on the leaves, and watch the Ironberries flow!"]
+			id: "2F54605B8555471F"
+			rewards: [
+				{
+					id: "469AE2B8F2835061"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "71A5985C61A29FE2"
+					item: "homespun:ironberries"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "371D0D6BEB35BDD0"
+				item: "homespun:ironberries"
+				type: "item"
+			}]
+			title: "The Simple Things"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2F54605B8555471F"
+				"39EF885D8FCEBB47"
+				"60C75B6BDA7592A3"
+			]
+			description: [
+				"I hope you weren't expecting to return things to how they were with a simple swish of a wand. With so much lost, there are limits to what can be done without a bit of good ol' fashioned physical labour."
+				""
+				"Surely youre wondering what is to be done with those berries by now, but for that you'll need to make a Crushing Tub, and a Evaporating Basin."
+			]
+			id: "432F6292BB27D60D"
+			rewards: [
+				{
+					count: 64
+					id: "153EBEBB6CF9AF11"
+					item: "homespun:ironberries"
+					type: "item"
+				}
+				{
+					id: "5F6D41B12F2DB387"
+					item: "homespun:evaporating_basin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0E3BA26470EA52FC"
+					item: "homespun:crushing_tub"
+					type: "item"
+				}
+				{
+					id: "17AF285E2E3EE48B"
+					item: "homespun:evaporating_basin"
+					type: "item"
+				}
+			]
+			title: "Tubman"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4DCCF7A0AB88AC2D"
+				"5DB4740CC8B08D20"
+			]
+			description: ["I warned you about the manual labour, right? Well here it comes. Stick some of those Ironberries in the Crushing Tub and get to jumping. As hardy as they are, these berries readily squish into Juice. Then, transfer the Juice to a Drying Basin to produce Tiny Piles of Iron Dust. Smelt these in a furnace, then combine and voila, Iron Ingot."]
+			id: "5C5413105525D595"
+			rewards: [{
+				count: 2
+				id: "1F93ABCF699840B3"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0F70D4A203B892B3"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "That's So Metal"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62AF9C36F8970A40"]
+			description: ["Add a reagent to transform either the liquid, the reagent, or both.   For now, we simply require Liquid Mana - a coalescence of magicks.   There should be enough residual magic in those Infused Pasture Seeds to transmute simple Water into it for now."]
+			id: "20B1D09EDC1F4476"
+			tasks: [{
+				id: "2BAD194A148569EA"
+				item: {
+					Count: 1b
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "kubejs:manafluid"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Manamananama"
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"20B1D09EDC1F4476"
+				"05FED40CC65732AA"
+				"6B14EC0EA078446E"
+				"39C6B5EB16C6F708"
+			]
+			description: [""]
+			id: "4FDAEDC74077A4B4"
+			tasks: [
+				{
+					id: "768135E76806EF98"
+					item: "kubejs:mana_berry"
+					type: "item"
+				}
+				{
+					id: "0A23D5243A593B14"
+					item: "kubejs:redd_berry"
+					type: "item"
+				}
+				{
+					id: "2B6333488938A9E2"
+					item: "kubejs:yelloww_berry"
+					type: "item"
+				}
+				{
+					id: "598B079473D8448A"
+					item: "kubejs:greenn_berry"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5DB4740CC8B08D20"]
+			id: "17FB8503D0C4EC49"
+			tasks: [{
+				id: "499E305C293C81DD"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["432F6292BB27D60D"]
+			id: "4DCCF7A0AB88AC2D"
+			rewards: [{
+				count: 2
+				id: "1AD41CD3A360410F"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0694E2307D22512E"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C5413105525D595"]
+			id: "7092511E2C2B8AFC"
+			rewards: [{
+				id: "7A9BB7D278468582"
+				item: "homespun:fluid_storage"
+				type: "item"
+			}]
+			tasks: [{
+				id: "417879CF624C3C0C"
+				item: "homespun:fluid_storage"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06540931B1905313"]
+			id: "39EF885D8FCEBB47"
+			rewards: [{
+				id: "014CF9B9614E7FA0"
+				item: "ceramicbucket:ceramic_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "3771BB4C5BD3F08E"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"20B1D09EDC1F4476"
+				"5C5413105525D595"
+			]
+			id: "724C2C567991F905"
+			tasks: [{
+				id: "577F8B9DCD27DCD9"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"17FB8503D0C4EC49"
+				"724C2C567991F905"
+			]
+			id: "5BED91F9DFA3AAAD"
+			size: 1.5d
+			tasks: [{
+				id: "01DB3D29A0075E93"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F54605B8555471F"]
+			id: "60C75B6BDA7592A3"
+			tasks: [{
+				id: "1581C89583B42909"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["39EF885D8FCEBB47"]
+			id: "474637B342E5B67B"
+			rewards: [{
+				id: "30CB1C9F2A252A76"
+				item: "homespun:ceramic_vessel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0074CF5D1F76E4C5"
+				item: "homespun:ceramic_vessel"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["432F6292BB27D60D"]
+			id: "32921A1B6E40E6A6"
+			tasks: [{
+				id: "29F5ED1DCD742607"
+				item: {
+					Count: 1b
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5BED91F9DFA3AAAD"]
+			id: "4947D526E5350C88"
+			tasks: [{
+				id: "4EC295B986B56C7C"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5BED91F9DFA3AAAD"
+				"724C2C567991F905"
+			]
+			id: "0D6460C9BE3F1F78"
+			tasks: [{
+				id: "63905D6773B2F5A6"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["20B1D09EDC1F4476"]
+			id: "05FED40CC65732AA"
+			tasks: [{
+				id: "74AEF80AB4061E0D"
+				item: {
+					Count: 1b
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "kubejs:redfluid"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20B1D09EDC1F4476"]
+			id: "6B14EC0EA078446E"
+			tasks: [{
+				id: "03D9C287C989600D"
+				item: {
+					Count: 1b
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "kubejs:yellowfluid"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["20B1D09EDC1F4476"]
+			id: "39C6B5EB16C6F708"
+			tasks: [{
+				id: "35B3577550A16C94"
+				item: {
+					Count: 1b
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "kubejs:greenfluid"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["20B1D09EDC1F4476"]
+			id: "518603F431042D6D"
+			tasks: [{
+				id: "50CFBF89C1286A53"
+				item: {
+					Count: 1b
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "kubejs:purplefluid"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BED91F9DFA3AAAD"]
+			id: "673714FF25DEACC4"
+			tasks: [{
+				id: "4CA95CD3F1E64FF6"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"05FED40CC65732AA"
+				"39C6B5EB16C6F708"
+				"518603F431042D6D"
+				"20B1D09EDC1F4476"
+			]
+			id: "2BD3B0AE0A7810A3"
+			tasks: [
+				{
+					id: "46A386DCF0C179F9"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "255B7B97E0E51702"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "76E41F5924D90A42"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "6FE62595590983C0"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5BED91F9DFA3AAAD"]
+			id: "3B50AC85A48EC49C"
+			tasks: [{
+				id: "01DCD2FB4FC2217D"
+				item: {
+					Count: 1b
+					id: "hexerei:mahogany_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			id: "6725C9ED2514FEEA"
+			tasks: [{
+				id: "731E12C55E73D4EA"
+				item: "kubejs:blaze_wand_two"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+	]
+	title: "Saving the World"
+}

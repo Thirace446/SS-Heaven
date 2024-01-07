@@ -1,0 +1,298 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apprentices_magicks"
+	group: "3DBB8FB4D3734C98"
+	icon: "ars_nouveau:novice_spell_book"
+	id: "23EBB93886F5AF62"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The spirit crystal which you obtain by defeating the flame, contains a special energy, but its nature seems almost chaotic."
+				""
+				"I wonder it that could be tamed with the liquid mana of our world to return him to his roots."
+			]
+			id: "5ACB5AE6163819D1"
+			tasks: [{
+				id: "4A4D4894064169D2"
+				item: "malum:infernal_spirit"
+				type: "item"
+			}]
+			title: "Spirit in the Skyblock"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"These spirits are much more in tune with magic than the diamonds we produced so far. "
+				""
+				"Make a spirit altar, for composing magical items."
+			]
+			id: "7673C4ACB5A2AFB5"
+			rewards: [{
+				id: "12E0D9FE31CCE569"
+				item: "malum:encyclopedia_arcana"
+				type: "item"
+			}]
+			tasks: [{
+				id: "319A531858A654B7"
+				item: "malum:spirit_altar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7673C4ACB5A2AFB5"]
+			id: "0FC5316DE1E58312"
+			tasks: [{
+				id: "0C6E180ECAB78DD7"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "5B95D75CE877856F"
+			tasks: [{
+				id: "6B4E905F5A81B29C"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7673C4ACB5A2AFB5"]
+			description: ["alchemy"]
+			id: "496F8095764B3F2A"
+			tasks: [{
+				id: "4017DCFB4AC1E9E7"
+				item: "malum:spirit_crucible"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "7ABF4BF7B6ED658C"
+			tasks: [{
+				id: "0FC2974A40CDE4C5"
+				item: "aether:aether_portal_frame"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "2EACB0427CCC0577"
+			rewards: [{
+				id: "58D268F328932197"
+				item: "malum:creative_scythe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10D34069D96885DE"
+				item: {
+					Count: 1b
+					id: "malum:crude_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12D6EB18C762B154"]
+			id: "40F93C877BFD3A46"
+			tasks: [
+				{
+					id: "612EB436A9D08678"
+					item: "ars_nouveau:ritual_containment"
+					type: "item"
+				}
+				{
+					id: "1BBB871C4E1136E1"
+					item: "ars_nouveau:mob_jar"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			id: "12D6EB18C762B154"
+			tasks: [{
+				id: "0B70D7572436591D"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			id: "56DF31DA87AD56B4"
+			tasks: [{
+				id: "0348D94D8B786740"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			id: "25A1A1377EF08E36"
+			tasks: [{
+				id: "4D8229827BAF0390"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "15A93E07B8106748"
+			tasks: [{
+				id: "4CB472B224C4B23D"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			id: "2AF30875715F9378"
+			tasks: [{
+				id: "2AE3E73B674032DE"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			id: "524748AF269B88E9"
+			tasks: [{
+				id: "6B63F7716A2F24C5"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["15A93E07B8106748"]
+			id: "5845D4B27C957FC1"
+			tasks: [{
+				id: "3BC3DD86FDD18D4B"
+				item: "ars_nouveau:storage_lectern"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["25A1A1377EF08E36"]
+			id: "5EC7BCAAF65E9403"
+			tasks: [{
+				id: "4B2E5EB24173138C"
+				item: "ars_nouveau:wixie_cauldron"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["524748AF269B88E9"]
+			id: "25A01B53D33C8BE7"
+			tasks: [{
+				id: "2E87183A51E2BE45"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["56DF31DA87AD56B4"]
+			id: "463A0BFA4FCB63FA"
+			tasks: [{
+				id: "7764F9C7EF4CEA92"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2AF30875715F9378"]
+			id: "3F00310493BDB8F6"
+			tasks: [{
+				id: "408695DB203E30C7"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7673C4ACB5A2AFB5"]
+			id: "73060BD9D0EC9FA1"
+			tasks: [{
+				id: "725AD8856BDA52F6"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7673C4ACB5A2AFB5"]
+			id: "3D5434FC5C6298D0"
+			tasks: [
+				{
+					id: "13BDBEA6BDCC455F"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "367E08F2F392ED27"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "6CC22ED1A738C403"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7673C4ACB5A2AFB5"]
+			id: "0A91E93A606C1476"
+			tasks: [{
+				id: "2A26E1913A9C9747"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:blaze_gate_small"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+	title: "Apprentice's Magicks"
+}

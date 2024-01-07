@@ -1,0 +1,87 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "3DBB8FB4D3734C98"
+	icon: "create:wrench"
+	id: "6E89838531B15BE1"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["577F8B9DCD27DCD9"]
+			id: "4C2B5C5216208D33"
+			size: 1.5d
+			tasks: [{
+				id: "044EE8368103D40C"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C2B5C5216208D33"]
+			id: "7FC3E16E1FA0604D"
+			tasks: [{
+				id: "778A78B0FD6B7014"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C2B5C5216208D33"]
+			id: "136B9E7C0AE69805"
+			tasks: [{
+				id: "17FEF797486905B1"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "24F92D80055BDB88"
+			tasks: [{
+				id: "74971E80B5CB16F8"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "785A908FE8F46E38"
+			tasks: [{
+				id: "72C3F1903205CA2D"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "39B5EB8AF846C5AC"
+			tasks: [{
+				id: "53C62BFE1E760AC5"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "6A4DAB01899B36BD"
+			tasks: [{
+				id: "504D74FADCCAD14E"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	title: "Wonders of physics"
+}
