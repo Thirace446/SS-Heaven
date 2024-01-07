@@ -1,0 +1,78 @@
+{
+
+	"item.kubejs.blank_botanic_rune": "空白符文",
+	"item.kubejs.sapphire": "蓝宝石",
+	"item.kubejs.boneshard": "骨头碎片",
+	"item.kubejs.diamond_nugget": "钻石碎块",
+	"item.kubejs.ironwood_wand_one": "铁木魔杖",
+	"item.kubejs.blaze_wand_two": "烈焰魔杖",
+	"item.kubejs.mana_berry": "魔力浆果",
+	"item.kubejs.yelloww_berry": "微光浆果",
+	"item.kubejs.redd_berry": "热焱浆果",
+	"item.kubejs.greenn_berry": "生命浆果",
+	"item.kubejs.allseeds_stew": "炖杂种",
+	"item.kubejs.mana_orb": "魔力珠",
+	"item.kubejs.glass_orb": "玻璃珠",
+	"item.kubejs.devil_dust": "恶魔尘",
+	"item.kubejs.crystal_catalyst": "水晶催化剂",
+
+	"item.kubejs.wcdonalds": "弯当劳",
+
+	"item.kubejs.bar_stamp_raw": "锭注模",
+	"item.kubejs.stamp_bar": "未烧制的锭注模",
+	"item.kubejs.gear_stamp_raw": "齿轮注模",
+	"item.kubejs.stamp_gear": "未烧制的齿轮注模",
+	"item.kubejs.blend_caminite": "方镁矾混合物",
+	"item.kubejs.brick_caminite": "方镁矾砖",
+	"item.kubejs.ancient_motive_core": "野火核心",
+	"item.kubejs.aspectus_dawnstone": "黎明石象征",
+	"item.kubejs.crystal_ember": "灰烬晶体",
+	"item.kubejs.dust_ember": "灰烬尘",
+	"item.kubejs.ember_crystal_cluster": "灰烬水晶簇",
+	"item.kubejs.gear_dawnstone": "黎明石齿轮",
+	"item.kubejs.ingot_dawnstone": "黎明石锭",
+	"item.kubejs.nugget_dawnstone": "黎明石粒",
+	"item.kubejs.plate_dawnstone": "黎明石板",
+	"item.kubejs.shard_ember": "灰烬碎片",
+	"item.kubejs.natural_quartz_seeds": "天然石英种子",
+	
+	
+	
+	"block.kubejs.dawnstone_casing": "黎明石机壳",
+	"block.kubejs.sapphire_block": "蓝宝石块",
+	
+
+	"fluid.kubejs.dawnstone": "熔融黎明石",
+	"block.kubejs.dawnstone": "熔融黎明石",
+	"item.kubejs.dawnstone_bucket": "熔融黎明石桶",
+
+	"fluid.kubejs.runefluid": "符文树脂",
+	"block.kubejs.runefluid": "符文树脂",
+	"item.kubejs.runefluid_bucket": "符文树脂桶",
+
+	"fluid.kubejs.manafluid": "Mana-a",
+	"block.kubejs.manafluid": "Mana-a",
+	"item.kubejs.manafluid_bucket":"Mana-a 桶",
+
+	"fluid.kubejs.yellowfluid": "Light-t",
+	"block.kubejs.yellowfluid": "Light-t",
+	"item.kubejs.yellowfluid_bucket": "Light-t 桶",
+
+	"fluid.kubejs.redfluid": "Fire-e",
+	"block.kubejs.redfluid": "Fire-e",
+	"item.kubejs.redfluid_bucket": "Fire-e 桶",
+
+	"fluid.kubejs.greenfluid": "Verdant-t",
+	"block.kubejs.greenfluid": "Verdant-t",
+	"item.kubejs.greenfluid_bucket": "Verdant-t 桶",
+
+	"fluid.kubejs.purplefluid": "Warp-p",
+	"block.kubejs.purplefluid": "Warp-p",
+	"item.kubejs.purplefluid_bucket": "Warp-p 桶",
+
+	"fluid.kubejs.whitefluid": "Soul-l",
+	"block.kubejs.whitefluid": "Soul-l",
+	"item.kubejs.whitefluid_bucket": "Soul-l 桶"
+	
+	
+}
