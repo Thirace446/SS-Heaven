@@ -1,0 +1,26 @@
+{
+  "item.hexerei.mahogany_broom": "铁树心木扫帚",
+  "entity.hexerei.mahogany_broom": "铁树心木扫帚",
+
+  "book.hexerei.items_mahogany_broom_1.passage_1": "铁树心木扫帚",
+  "book.hexerei.items_mahogany_broom_1.passage_2": "    这是两种扫帚中速度最快的一种。铁树心木扫帚拥有防火能力，所以它不会被遗失在岩浆中或被火焰烧毁。尽管防火，但它飞入火焰时仍会被打掉，除非给扫帚装上一个下界合金扫帚头。",
+
+  "book.hexerei.items_mahogany_log_1.passage_1": "桃花心木原木",
+  "book.hexerei.items_mahogany_log_1.passage_2": "    桃花心木原木被用于在混合锅内制作铁树心木扫帚。其丰富的桃花心木色纹理也可以作为好看的装饰性方块来使用。",
+
+  "book.hexerei.entities_broom_page_1.passage_1": "扫帚",
+  "book.hexerei.entities_broom_page_1.passage_2": "  扫帚是巫师世界的可骑行载具。允许巫师们驾驭它们，可以横穿大陆四处翱翔。当前有柳木扫帚和铁树心木扫帚这两种扫帚可用。",
+  "book.hexerei.entities_broom_page_2.passage_1": "  首先是柳木扫帚。这是最慢的扫帚，它适合进行服务器探索并且可以进行慢而准的建筑建造。\n\n  尽管它很慢，但是您会发现，它在早期游戏中十分容易制作出来。",
+  "book.hexerei.entities_broom_page_3.passage_1": "  其次是铁树心木扫帚。它比柳木扫帚更快！探索世界比柳木扫帚快得多。\n  它不仅快，而且掉落后能防火防岩浆，但当扫帚放置为实体时并不能防。",
+  "book.hexerei.entities_broom_page_4.passage_1": "  如果想骑上扫帚，右键点击放在地上的扫帚即可，就像船一样。\n  蹲伏右键点击可以打开扫帚的界面。\n  当骑行时，可以按住空格键升入云霄，也可以按住 %kkey.hexerei.broomDescend 降落地面。确保降落的快捷键绑定没有冲突，或者您可以将降落的快捷键绑定成您喜欢的。",
+  "book.hexerei.entities_broom_page_5.passage_1": "  扫帚的其余操作就像船一样。你已经了解如何骑着扫帚飞行，现在，让我们学学扫帚的配件吧！\n  我们再次对着放下的扫帚蹲伏右键点击，打开它的界面。",
+  "book.hexerei.entities_broom_page_6.passage_1": "  首先，在扫帚界面的顶部有三个空槽位，第一个是杂项配件，通常会装配到扫帚尖端。\n  例如，扫帚钥匙链可以装到这个空槽上，当钥匙链吊着挂坠时，会在链上显示被吊着的挂坠。",
+  "book.hexerei.entities_broom_page_7.passage_1": "  第二个空槽是用来装上挎包的，挎包有三种等级，每升一级都会额外增加9格物品容量。\n\n\n\n  我想旅行时您需要它。",
+  "book.hexerei.entities_broom_page_8.passage_1": "  最后一个空槽时留给扫帚尾的，它给扫帚提供了飞行的动力。当骑行扫帚飞行时，扫帚尾会持续消耗耐久，直至损坏。\n  一旦扫帚尾损坏，扫帚就会坠落到地面上，所以，确保在长途旅行时，您备有足够的扫帚尾。",
+  "book.hexerei.entities_broom_page_9.passage_1": "  配件: \n   杂项: \n   挎包: \n   扫帚尾: \n 若要装备，则将每件物品放至其对应的扫帚空槽内即可。",
+
+  "item.hexerei.mahogany_broom_stand": "铁树心木扫帚架",
+  "block.hexerei.mahogany_broom_stand": "铁树心木扫帚架",
+  "block.hexerei.willow_broom_stand_wall": "铁树心木扫帚墙架",
+  "block.hexerei.mahogany_broom_stand_wall": "铁树心木扫帚墙架"
+}
