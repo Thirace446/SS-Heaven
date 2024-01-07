@@ -1,4 +1,4 @@
-A magic pack idea
+My magic pack idea
 
 Join the discussion: 
 https://discord.gg/5grQ3jnhYZ
