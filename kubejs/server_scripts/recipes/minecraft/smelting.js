@@ -1,7 +1,4 @@
 ServerEvents.recipes((event) => {
-    if (global.isExpertMode == false) {
-        return;
-    }
     const id_prefix = 'kubejs/minecraft/smelting/';
     const recipes = [
       //  {
