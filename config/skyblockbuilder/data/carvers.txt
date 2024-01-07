@@ -1,0 +1,12 @@
+minecraft:canyon
+minecraft:cave
+minecraft:cave_extra_underground
+minecraft:everbright_canyon_carver
+minecraft:everbright_cave_carver
+minecraft:everbright_noise_carver
+twilightforest:highland_caves
+minecraft:nether_cave
+minecraft:sky_canyon_carver
+minecraft:sky_cave_carver
+minecraft:sky_noise_carver
+twilightforest:tf_caves
