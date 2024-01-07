@@ -1,3 +1,8 @@
+A magic pack idea
+
+Join the discussion: 
+https://discord.gg/5grQ3jnhYZ
+
 Mod List
 
 <ul>
