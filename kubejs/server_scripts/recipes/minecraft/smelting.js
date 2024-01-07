@@ -1,5 +1,7 @@
 ServerEvents.recipes((event) => {
+    
     const id_prefix = 'kubejs/minecraft/smelting/';
+    
     const recipes = [
       //  {
        //     input: 'minecraft:clay_ball',
