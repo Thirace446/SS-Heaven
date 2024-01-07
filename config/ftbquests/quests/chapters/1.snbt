@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: ""
+	id: "09F040468A8513B3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["I'm sorry, I failed you. For all I thought I was capable of, in the end I could barely protect this tiny fragment of the world. The fact that you live though, gives me hope my child. Though I am nothing but a whisper on the breeze now, I will assist you however I can."]
+		id: "1328629F4FDBC61F"
+		tasks: [{
+			id: "73577CA36741F322"
+			item: "minecraft:stone"
+			type: "item"
+		}]
+		x: 1.0d
+		y: -1.5d
+	}]
+	title: "1"
+}
